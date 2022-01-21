@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: helvetica;
+    box-sizing: border-box;
+}
+
+#cabecalho, nav, main, #conteudo, #texto, .divisao, .email, .rodape {
+    display: flex;
+}
+
+#cabecalho {
+    width: auto;
+    height: 40px;
+    background-color: #212121;
+}
+
+#logo {
+    font-size: 18px;
+    color: #fff;
+    margin-left: 10%;   
+    padding: 10px;
+}
+
+nav {
+    width: 70%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 25px 5px 25px;
+}
+
+#home {
+    background-color:#F9A825;
+    border-radius: 20px;
+}
+
+.menu:hover {
+    background-color: red; 
+}
+
+main {
+    width: 100%;
+    height: 40vw;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#conteudo {
+    height: auto;
+    width: 50%;
+}
+
+.email {
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+}
+
+.divisao {
+    margin-right: 2%;
+    border-right: 1px dashed #000;
+    flex-wrap: wrap;
+}
+
+#texto {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+#input {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+input {
+    margin-top: 5px;
+    width: 280px;
+    padding: 8px;
+    border: solid black 0.5px;
+    border-radius: 5px;
+}
+
+button {
+    margin: 10px 0px;
+    border-radius: 5px;
+    border: solid black 0.8px;
+    padding: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+button:hover{
+    background-color: red;
+    color: white;
+}
+
+.rodape {
+    width: auto;
+    height: 80px;
+    background-color: #212121;
+    justify-content: center;
+    align-items: center;
+}
+
+#ti-academy {
+    color:#fff;
+    font-weight: bold;
+    text-decoration: none;
+}
